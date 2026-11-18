@@ -1,0 +1,43 @@
+﻿# .NET / Visual Studio
+.vs/
+**/bin/
+**/obj/
+**/TestResults/
+*.user
+*.suo
+
+# IDE
+.idea/
+.vscode/
+
+# Android
+.gradle/
+**/local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+*.jks
+*.keystore
+
+# Build output
+artifacts/
+publish/
+coverage/
+
+# Logs and local databases
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pfx
+*.p12
+*.key
+*.pem
+appsettings.Local.json
